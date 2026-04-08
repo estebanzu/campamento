@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Countdown Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="bg-blur"></div>
+    
+    <main class="app-container">
+        <header class="header">
+            <h1 id="event-name">Campamento para parejas</h1>
+            <p class="event-date">11 de abril, 2026</p>
+        </header>
+
+        <section class="timer-grid">
+            <div class="card">
+                <span id="days" class="number">00</span>
+                <span class="label">Días</span>
+            </div>
+            <div class="card">
+                <span id="hours" class="number">00</span>
+                <span class="label">Horas</span>
+            </div>
+            <div class="card">
+                <span id="minutes" class="number">00</span>
+                <span class="label">Mins</span>
+            </div>
+            <div class="card">
+                <span id="seconds" class="number">00</span>
+                <span class="label">Segs</span>
+            </div>
+        </section>
+
+        <footer class="actions">
+            <button class="btn-primary" onclick="shareEvent()">Compartir</button>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
